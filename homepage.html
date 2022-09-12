@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/homepage.css" />
+    <title>GOENLIVEsports</title>
+</head>
+<body>
+    <header><h1 class="homepageTitle">GOENLIVE Sports</h1></header>
+    
+    <!--Homepage Main Box-->
+    <main class="homepageContainer">
+        <!--NavBar-->
+        <section>
+            <ul class="homepageNavBar">
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="podcast.html">GOENLIVE Podcast</a></li>
+                <li><a href="#">GOENLIVE Sports</a>
+                    <ul>
+                        <li>NFL</li>
+                        <li>NBA</li>
+                        <li>MLB</li>
+                    </ul>
+                </li>
+                <li><a href="#">Mock Drafts</a></li>
+                <li><a href="#">Recent Thoughts</a></li>
+                <li><a href="messageus.html">Message Us Questions</a></li>
+            </ul>
+        </section>
+
+        <!--Info Box-->
+        <section>
+            <div class="homepageLogo">
+                <img src="./assets/images/goenliveLogo.PNG" alt="GOENLIVE logo" />
+            </div>
+
+            <div class="stayConnected">
+                <p>Insert the form here for stay connected</p>
+                <form class="stayConnectedForm">
+                    <h2>Fill out the form below to stay updated with NEW content</h2>
+
+                    <label for="homepageEmail">What is your email:</label>
+                    <input type="text" id="homepageEmail" placeholder="email" />
+
+                    <p>Which sports would you like to receive email updates for (select all that apply):</p>
+                    <label for="homepageNfl">NFL</label>
+                    <input type="checkbox" id="homepageNfl" />
+
+                    <label for="homepageNba">NBA</label>
+                    <input type="checkbox" id="homepageNba" />
+
+                    <label for="homepageMlb">MLB</label>
+                    <input type="checkbox" id="homepageMlb" />
+                </form>
+                <button id="stayConnectedBtn">Submit</button>
+            </div>
+        </section>
+
+        <!--Twitter Box-->
+        <section class="homepageTwitterBox">
+            <h2>The latest:</h2>
+            <div id="homepageTwitterSection">
+                <!--Tweets pop up in list below-->
+                <ul id="homepageTwitterList"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Follow Us On:</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/goenlive/?hl=en">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@goenlive">TikTok</a></li>
+            <li><a href="https://open.spotify.com/show/420Aau7DEOFzcAvw8oVDnK">Spotify</a></li>
+            <li><a href="https://twitter.com/goen_live">Twitter</a></li>
+        </ul>
+    </footer>
+    
+    <script src="./assets/js/homepage.js"></script>
+</body>
+</html>

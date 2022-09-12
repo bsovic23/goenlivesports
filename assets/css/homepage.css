@@ -1,0 +1,63 @@
+/* Root Variables */
+
+/* Background =========================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7FDBFF;
+}
+
+/* Title =========================================================== */
+.homepageTitle {
+    font-size: 36px;
+    color: green;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main Box =========================================================== */
+.homepageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* NavBar =========================================================== */
+.homepageNavBar {
+    background-color: grey;
+    padding: 20px;
+}
+
+.homepageNavBar li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.homepageNavBar li a {
+    text-decoration: none;
+}
+
+.homepageNavBar li a:hover {
+    color: yellow;
+}
+
+
+
+/* InfoBox =========================================================== */
+
+
+
+
+
+
+/* Twitter Box =========================================================== */
+.homepageTwitterBox h2{
+    background-color: green;
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+
+
